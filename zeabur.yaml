@@ -64,9 +64,6 @@ spec:
           - id: web
             port: 1337
             type: HTTP
-        volumes:
-          - id: data
-            dir: /src/public/uploads
         env:
           HOST:
             default: "0.0.0.0"
