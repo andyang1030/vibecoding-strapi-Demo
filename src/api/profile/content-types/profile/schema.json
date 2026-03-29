@@ -1,0 +1,43 @@
+{
+  "kind": "singleType",
+  "collectionName": "profiles",
+  "info": {
+    "singularName": "profile",
+    "pluralName": "profiles",
+    "displayName": "Profile",
+    "description": "Profile page content"
+  },
+  "options": {
+    "draftAndPublish": false
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "badge": {
+      "type": "string",
+      "required": true
+    },
+    "profile": {
+      "type": "component",
+      "repeatable": false,
+      "component": "profile.profile-info",
+      "required": true
+    },
+    "images": {
+      "type": "component",
+      "repeatable": false,
+      "component": "profile.profile-images",
+      "required": true
+    },
+    "socialLinks": {
+      "type": "component",
+      "repeatable": true,
+      "component": "profile.social-link",
+      "required": true
+    },
+    "likes": {
+      "type": "integer",
+      "default": 0,
+      "min": 0
+    }
+  }
+}

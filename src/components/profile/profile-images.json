@@ -1,0 +1,24 @@
+{
+  "collectionName": "components_profile_profile_images",
+  "info": {
+    "displayName": "Profile Images",
+    "description": "Profile image asset paths"
+  },
+  "options": {},
+  "attributes": {
+    "backgroundSrc": {
+      "type": "media",
+      "multiple": false,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "avatarSrc": {
+      "type": "media",
+      "multiple": false,
+      "allowedTypes": [
+        "images"
+      ]
+    }
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "collectionName": "components_profile_profile_infos",
+  "info": {
+    "displayName": "Profile Info",
+    "description": "Core profile text content"
+  },
+  "options": {},
+  "attributes": {
+    "avatarAlt": {
+      "type": "string",
+      "required": true
+    },
+    "name": {
+      "type": "string",
+      "required": true
+    },
+    "bio": {
+      "type": "text",
+      "required": true
+    }
+  }
+}

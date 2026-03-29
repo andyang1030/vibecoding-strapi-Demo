@@ -1,0 +1,27 @@
+{
+  "badge": "Profile page",
+  "images": {},
+  "profile": {
+    "avatarAlt": "Andy123",
+    "name": "Andy11111",
+    "bio": "Hi I'm Andy111111!"
+  },
+  "likes": 0,
+  "socialLinks": [
+    {
+      "platform": "instagram",
+      "label": "Instagram",
+      "href": "https://instagram.com"
+    },
+    {
+      "platform": "medium",
+      "label": "Medium",
+      "href": "https://medium.com"
+    },
+    {
+      "platform": "linkedin",
+      "label": "LinkedIn",
+      "href": "https://linkedin.com"
+    }
+  ]
+}
